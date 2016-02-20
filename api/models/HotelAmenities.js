@@ -11,23 +11,18 @@ module.exports = {
       type: 'string',
       required: true
     },
-    pillow: {
-      type: 'integer'
-    },
-    towels: {
-      type: 'integer'
-    },
-    dentalKit: {
-      type: 'integer'
-    },
-    shavingKit: {
-      type: 'integer'
+    amenity: {
+      type: 'string',
+      required: true
     }
   },
-  
+
   validationMessages: {
     guestID: {
       required: 'Providing Guest ID is mandatory!'
+    },
+    amenity: {
+      required: 'Amenity is mandatory.'
     }
   }
 };
