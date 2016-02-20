@@ -16,11 +16,11 @@ module.exports = {
       required: true
     },
     openingHours: {
-      type: 'time',
+      type: 'datetime',
       required: true
     },
     closingHours: {
-      type: 'time',
+      type: 'datetime',
       required: true
     }
   },
